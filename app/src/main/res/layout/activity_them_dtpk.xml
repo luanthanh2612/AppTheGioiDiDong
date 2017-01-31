@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.edwardsmith.demoapp.Activity.ThemDTPKActivity">
+
+    <RelativeLayout
+        android:id="@+id/activity_them_dtpk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.edwardsmith.demoapp.Activity.ThemDTPKActivity">
+
+        <Spinner
+            android:id="@+id/spinnerDienThoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+        </Spinner>
+        <EditText
+            android:id="@+id/edittext_tendtpk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/custom_editext"
+            android:layout_margin="5dp"
+            android:hint="Nhap Ten"
+            android:singleLine="true"
+            android:textColorHint="@color/colorButton"
+            android:layout_below="@+id/spinnerDienThoai"
+            />
+        <EditText
+            android:id="@+id/edittext_Gia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap Gia"
+            android:layout_below="@+id/edittext_tendtpk"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:inputType="number"
+            />
+        <ImageView
+            android:id="@+id/imageViewHinhDTPK"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edittext_Gia"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logochamhoi"
+            android:contentDescription="@string/image_des"
+            />
+        <EditText
+            android:id="@+id/edittext_ThongTin"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/imageViewHinhDTPK"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:inputType="text"
+            android:hint="Nhap Thong Tin"
+            android:textColorHint="@color/colorAccent"
+            />
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/edittext_ThongTin"
+        android:padding="3dp"
+        >
+        <Button
+        android:id="@+id/buttonScanDT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_scan"
+        android:layout_weight="1"
+        android:text="Scan"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="5dp"
+        />
+        <Button
+        android:id="@+id/buttonThemDTPK"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_weight="1"
+        android:text="Them"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="5dp"
+        />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

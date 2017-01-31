@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edwardsmith.demoapp.Activity.UpdateActivity">
+    <ImageView
+        android:id="@+id/imageViewHinhUpdate"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/image_des"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        />
+    <EditText
+        android:id="@+id/ediitext_TenUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/imageViewHinhUpdate"
+        android:hint="Nhap Ten"
+        />
+    <EditText
+        android:id="@+id/edittext_GiaUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ediitext_TenUpdate"
+        android:hint="Nhap Gia"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/edittext_ThongTinUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_GiaUpdate"
+        android:hint="Nhap Thong Tin"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cap Nhat"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/edittext_ThongTinUpdate"
+        />
+</RelativeLayout>

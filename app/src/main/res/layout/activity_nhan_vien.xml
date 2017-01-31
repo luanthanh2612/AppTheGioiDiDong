@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nhan_vien"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.edwardsmith.demoapp.Activity.NhanVienActivity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edittext_tenNV"
+    android:layout_margin="10dp"
+    android:hint="Nhap Ten Nhan Vien"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext_diachiNV"
+        android:hint="Dia chi"
+        android:layout_below="@+id/edittext_tenNV"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext_SDTNV"
+        android:hint="SDT"
+        android:layout_below="@+id/edittext_diachiNV"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext_matkhauNV"
+        android:hint="Nhap Mat Khau"
+        android:layout_below="@+id/edittext_SDTNV"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonUpDateNV"
+        android:layout_below="@+id/edittext_matkhauNV"
+        android:text="Cap Nhat"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        />
+</RelativeLayout>

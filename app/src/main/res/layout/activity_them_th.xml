@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_them_th"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.edwardsmith.demoapp.Activity.ThemTHActivity">
+    <Spinner
+        android:id="@+id/spinnerLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+    </Spinner>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_tenTH"
+        android:hint="Nhap Ten"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_editext"
+        android:padding="10dp"
+        android:layout_below="@+id/spinnerLoai"
+        android:maxLines="1"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView_hinhTH"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edit_tenTH"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logochamhoi"
+        android:scaleType="fitCenter"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonThemTH"
+        android:layout_below="@+id/imageView_hinhTH"
+        android:text="Them"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        />
+</RelativeLayout>

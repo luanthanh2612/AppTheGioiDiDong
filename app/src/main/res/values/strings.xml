@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="image_des">hinh logo</string>
+    <string name="themTH">Them</string>
+    <string name="dienthoai">Dien Thoai</string>
+    <string name="capnhat">Cap Nhat</string>
+</resources>

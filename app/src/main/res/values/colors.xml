@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#F9A825</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSplash">#FFEB3B</color>
+    <color name="colorActionBar">#FBC02D</color>
+    <color name="colorBluegray">#B0BEC5</color>
+    <color name="colorGreen">#26A69A</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTran">#66FFAB40</color>
+    <color name="colorBlackTran">#59000000</color>
+    <color name="colorButton">#1abc9c</color>
+    <color name="colorRed">#ff0000</color>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:title="Camera"
+        android:id="@+id/mCamera"
+        android:icon="@drawable/ic_camera_alt_black_24dp"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+    android:title="Them"
+    android:id="@+id/mThem"
+    android:icon="@drawable/ic_add_black_24dp"
+    app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+        android:title="Dang Nhap"
+        android:id="@+id/mDangNhap"
+        />
+    <item
+        android:title="Dang Xuat"
+        android:id="@+id/mDangXuat"
+        />
+</menu>
